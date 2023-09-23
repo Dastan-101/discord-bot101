@@ -21,7 +21,7 @@
                     partials: ["REACTION"]
                 });
 
-                await s4d.client.login('MTE1NDQzMTE5MjM3Mjg3MTI5OQ.G0sKMk.lyszzRaHCAlHnLjuMmyXnmBSvoyBKKAOoKSqf8').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+                await s4d.client.login('MTE1NDQzMTE5MjM3Mjg3MTI5OQ.GrDXGa.QiL1xtuVAWrAwYM9ohT-d2rUdcqIw8AMqMSbnw').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
   if ((s4dmessage.content) == '!alvaro 0') {
