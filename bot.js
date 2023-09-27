@@ -42,7 +42,7 @@ s4d.client.on('messageCreate', async (s4dmessage) => {
 
 });
 
-await s4d.client.login('MTE1NDk4ODU4OTMzMjAzNzcyMg.G2JhcX.bh8MfrvNBAttKr2UHAhHYnC_Ewubkajt5xs-Eo').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
+await s4d.client.login('MTE1NDk4ODU4OTMzMjAzNzcyMg.G4DAFl.szDRRQgdgeTgWT3gz8sujBPVHuK7EktjM1zYOk').catch((e) => { s4d.tokenInvalid = true; s4d.tokenError = e; });
 
 s4d.client.on('messageCreate', async (s4dmessage) => {
   if ((s4dmessage.content) == '!money alvaro 0') {
